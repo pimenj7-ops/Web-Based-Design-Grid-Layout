@@ -2,18 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
-<link href="Web-Based-Design_Grid_Layout.html.css" rel="stylesheet" type="text/css">
+<title>Web-Based-Design_Grid_Layout</title>
+<style>
+	body {
+		background: whitesmoke;
+	} .grid-container {
+		width: 384px;
+		height: 768px;
+		border: 1px solid gray;
+		margin: 24px auto;
+		// background: white;
+	} .grid-item {
+		width: 384px;
+		height: 256px;
+	} .grid-item:nth-child(1) {
+		background: url("New York, New York Sketch.jpg");
+	} .grid-item:nth-child(2) {
+		background: url("Urban Design Multiple Examples.jpg");
+	} .grid-item:nth-child(3) {
+		background: url("Urban Designer V.jpg");
+	} h1 {
+		text-align: center;
+	}
+</style>
 </head>
 
 <body>
+<h1>Urban Design Examples</h1>
 <div class="grid-container">
-	<div class="grid-item"><img src="Urban Designer Las Vegas 1.jpg" width="437" height="457" alt=""/></div>
-	<div class="grid-item"><img src="Urban Designer V.jpg" width="456" height="640" alt=""/></div>
-	<div class="grid-item"><img src="Urban Designer Las Vegas 2.jpg" width="3024" height="4032" alt=""/></div>
-	<div class="grid-item"><img src="Urban Designer Las Vegas 3.jpg" width="399" height="501" alt=""/></div>
-	<div class="grid-item"><img src="Urban Designer Las Vegas 4.jpg" width="194" height="259" alt=""/></div>
-	<div class="grid-item"><img src="Urban Designer Las Vegas 5.jpg" width="617" height="324" alt=""/></div>
+	<div class="grid-item"></div>
+	<img src="New York, New York Sketch.jpg" width="3024" height="4032" alt=""/> </div>
+	<div class="grid-item"></div>
+	<img src="Urban Design Multiple Examples.jpg" width="437" height="457" alt=""/>
+	<div class="grid-item"></div>
+	<img src="Urban Designer V.jpg" width="456" height="640" alt=""/>
 </div>
-</body>
-</html>
